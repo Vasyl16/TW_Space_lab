@@ -1,0 +1,133 @@
+@import '../../index.scss';
+
+.new-stuff {
+  margin: 120px 0 150px;
+  @media (max-width: $tablet) {
+    margin: 80px 0 100px;
+  }
+  @media (max-width: $mobile) {
+    margin: 40px 0 50px;
+  }
+  &__container {
+    margin: 0 auto;
+    max-width: $containerWidth;
+    padding: 0 calc($containerPadding / 2);
+  }
+  &__title {
+    font-family: Playfair Display;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 47.99px;
+    text-align: center;
+    padding-bottom: 38px;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+
+    @media (max-width: $tablet) {
+      padding-bottom: 20px;
+    }
+    @media (max-width: $mobile) {
+      font-size: 25px;
+      padding-bottom: 10px;
+    }
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      width: 120px;
+      height: 1px;
+      background-color: white;
+      right: 50%;
+      transform: translate(50%, 0);
+    }
+  }
+  &__items {
+    margin-top: 61.5px;
+    display: flex;
+    gap: 23px;
+    flex-wrap: wrap;
+    justify-content: center;
+    @media (max-width: $mobile) {
+      margin-top: 30px;
+    }
+  }
+  &__item {
+  }
+}
+
+.item-new-stuff {
+  margin-top: 20px;
+  flex: 0 1 260px;
+  display: flex;
+  flex-direction: column;
+  &__photo {
+    background-color: #191b1c;
+    text-align: center;
+    padding: 27px 0 34px;
+    img {
+      width: 215px;
+      height: 264px;
+    }
+    &_m {
+      padding: 2px 0 8px;
+      img {
+        height: 315px;
+      }
+    }
+    &_mod {
+      position: relative;
+      overflow: hidden;
+      &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: inherit; // Inherit the background of the parent
+        filter: blur(90px); // Apply the blur effect
+        z-index: 2;
+      }
+      img {
+        position: relative;
+        z-index: 1;
+      }
+    }
+  }
+  &__button {
+    position: absolute;
+    z-index: 10;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%, 50%);
+    text-transform: uppercase;
+    text-transform: uppercase;
+    padding: 12px 28px;
+    border: 1px solid white;
+    opacity: 0px;
+    letter-spacing: 2px;
+    transition: all 0.3s;
+    white-space: nowrap;
+    &:hover {
+      background: #020202;
+    }
+  }
+  &__title {
+    font-family: Playfair Display;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.99px;
+    text-align: left;
+    padding-top: 25px;
+  }
+  &__price {
+    padding-top: 10px;
+    font-family: Playfair Display;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.33px;
+    text-align: left;
+    letter-spacing: 0.5px;
+  }
+}
