@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/TW_Space_lab/static/css/main.38325ec7.css",
+    "main.js": "/TW_Space_lab/static/js/main.db7a47ec.js",
+    "static/media/bg1.jpg": "/TW_Space_lab/static/media/bg1.6368946a0349c30c6c33.jpg",
+    "static/media/03.png": "/TW_Space_lab/static/media/03.8382aa23a09cb91550ab.png",
+    "static/media/02.png": "/TW_Space_lab/static/media/02.0fee7e7a66797e72e8d9.png",
+    "static/media/bg2.jpg": "/TW_Space_lab/static/media/bg2.7fd4e8e00f828f2c077d.jpg",
+    "static/media/bg.jpg": "/TW_Space_lab/static/media/bg.a6d75df43422eddeb1ce.jpg",
+    "static/media/01.png": "/TW_Space_lab/static/media/01.65f17328793c21b78fd6.png",
+    "static/media/watch2.png": "/TW_Space_lab/static/media/watch2.4bec010b31c4a6678049.png",
+    "static/media/watch1.png": "/TW_Space_lab/static/media/watch1.eaf5412aaa762c16da8c.png",
+    "static/media/watch3.png": "/TW_Space_lab/static/media/watch3.e042cb97704289a3bbff.png",
+    "static/media/watch4.jpg": "/TW_Space_lab/static/media/watch4.3e1de9edc7fe4a601ad8.jpg",
+    "static/media/watch5.jpg": "/TW_Space_lab/static/media/watch5.855d0099e9ed841779d0.jpg",
+    "static/media/watch7.png": "/TW_Space_lab/static/media/watch7.bb67f104736ef8bae888.png",
+    "static/media/watch6.jpg": "/TW_Space_lab/static/media/watch6.e84a82ebbc84e0f1896a.jpg",
+    "static/media/partner3.png": "/TW_Space_lab/static/media/partner3.6f09b5001a068194548e.png",
+    "static/media/partner2.png": "/TW_Space_lab/static/media/partner2.449262fef92792179f5c.png",
+    "static/media/partner4.png": "/TW_Space_lab/static/media/partner4.11d975b2ae24aae558e6.png",
+    "static/media/partner1.png": "/TW_Space_lab/static/media/partner1.29d11629565bee6c78be.png",
+    "static/media/portenLogo.svg": "/TW_Space_lab/static/media/portenLogo.5d4e61f9251cfbbda116c65931517547.svg",
+    "static/media/tel.svg": "/TW_Space_lab/static/media/tel.6cf107295cdfd9fbbd16f81c3300c822.svg",
+    "static/media/cart.svg": "/TW_Space_lab/static/media/cart.bcf11915d1a2e83359114e1dae423321.svg",
+    "index.html": "/TW_Space_lab/index.html",
+    "static/media/search.svg": "/TW_Space_lab/static/media/search.cd6181f82eb3b2535c1f9be74d372467.svg",
+    "static/media/login.svg": "/TW_Space_lab/static/media/login.cf9c2a83db32d1ec5769a25da3c5e42f.svg",
+    "static/media/burgerMenu.svg": "/TW_Space_lab/static/media/burgerMenu.f8955b0cc62d5278a17857552e9e2908.svg",
+    "main.38325ec7.css.map": "/TW_Space_lab/static/css/main.38325ec7.css.map",
+    "main.db7a47ec.js.map": "/TW_Space_lab/static/js/main.db7a47ec.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38325ec7.css",
+    "static/js/main.db7a47ec.js"
+  ]
+}
