@@ -42,7 +42,7 @@ export const Header = () => {
             </div>
           </div>
         </div>
-        <div className="header__column">
+        <div className="header__column ">
           <div className="header-main">
             <div className="header-main__items header__container">
               <div className="header-main__logo">

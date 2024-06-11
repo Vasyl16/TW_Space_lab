@@ -1,24 +1,48 @@
 @import '../../index.scss';
 
 .header {
+  height: 124px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 0;
+  z-index: 100;
   @media (max-width: $mobile) {
     height: 55px;
+    @media (max-width: $mobile) {
+      max-width: auto;
+      padding: 0;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      left: 0;
+      height: 0;
+      z-index: 100;
+    }
+  }
+  &__items {
+    background-color: black;
   }
   &__container {
     margin: 0 auto;
     max-width: $containerWidth;
     padding: 0 calc($containerPadding / 2);
-    position: relative;
-  }
-  &__items {
+    @media (max-width: $mobile) {
+      padding: 0;
+      max-width: auto;
+    }
   }
 }
 
 .header-information {
+  background-color: black;
   display: flex;
   justify-content: space-between;
   padding: 14px 0;
+
   @media (max-width: $mobile) {
+    padding: 20px 0;
     gap: 20px;
     flex-direction: column;
     align-items: center;
@@ -131,6 +155,7 @@
   display: flex;
   gap: 40px;
   &__cart {
+    cursor: pointer;
     @media (max-width: $mobile) {
       width: 40px;
       height: 40px;
@@ -141,6 +166,7 @@
     }
   }
   &__search {
+    cursor: pointer;
     @media (max-width: $mobile) {
       width: 40px;
       height: 40px;

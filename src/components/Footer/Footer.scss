@@ -3,6 +3,7 @@
 .footer {
   &__column {
     &:first-child {
+      height: 450px;
       display: flex;
       flex-direction: column;
       background-image: url(./img/bg.jpg);
@@ -13,10 +14,10 @@
     }
   }
   &__items {
-    padding: 80px 0 67px;
+    padding: 82px 0 10px 0;
     display: flex;
     justify-content: space-between;
-    gap: 15px;
+    gap: 40px;
     @media (max-width: 1200px) {
       flex-wrap: wrap;
       justify-content: center;
@@ -49,7 +50,7 @@
   }
   &__item {
     flex: 0 1 32%;
-    min-width: 400px;
+    min-width: 300px;
     @media (max-width: $mobile) {
       min-width: auto;
       flex: 1 1 400px;
@@ -94,6 +95,7 @@
     gap: 15px;
   }
   &__input {
+    opacity: 1;
     color: white;
     box-sizing: border-box;
     background-color: #ffffff66;
@@ -101,6 +103,10 @@
     width: 210px;
     @media (max-width: $mobileSmall) {
       width: 100%;
+    }
+    &::placeholder {
+      color: #ffffff66; /* Change this to your desired color */
+      opacity: 1; /* Ensure the color is applied fully */
     }
   }
 
